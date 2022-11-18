@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Cambodia</title>
-    <link rel="icon" href="/VIDEO/IMAGE/bg_logo.png">
+    <link rel="icon" href="/VIDEO/IMAGE/bg">
     <script src="https://kit.fontawesome.com/4108a5fe20.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Battambang:wght@300;400;700&family=Hanuman:wght@300&family=Koulen&family=Roboto:ital,wght@0,300;0,400;0,900;1,300&family=Suwannaphum:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main">
@@ -16,8 +18,8 @@
             <div class="left-bar">
                 <img width="64px" height="64px" src="./Image/bg_logo.png" alt="">
                 <div class="left-title">
-                    <p>Business</p>
-                    <p>Cambodia</p>
+                    <p class="m-0">Business</p>
+                    <p class="m-0">Cambodia</p>
                 </div>
             </div>
             <div class="search-bar">
@@ -25,45 +27,76 @@
             </div>
             <div class="left-menu">
                 <a href="">ទំព័រដើម</a>
-                <a href="">កំពូលអ្នកលក់</a>
-                <a href="">មុខរបរកសិកម្ម</a>
-                <a href="">មុខរបរបច្ចេកវិទ្យា</a>
-                <a href="">របាយការណ៍</a>
-                <a href="">អត្ថបទ PR</a>
-                <a href="">ពិព័រណ៍មុខរបរ 2022</a>
-                <a href="">ព័ត៌មានថ្មីៗ</a>
-                <a href="">ចាប់ផ្តើមអាជីវកម្ម</a>
-                <a href="">អចលនទ្រព្យ</a>
-                <a href="">ភាពជាអ្នកដឹកនាំ</a>
-                <a href="">ហិរញ្ញវត្ថុ</a>
+                <a class="text-dark" href="">កំពូលអ្នកលក់</a>
+                <a class="text-dark" href="">មុខរបរកសិកម្ម</a>
+                <a class="text-dark" href="">មុខរបរបច្ចេកវិទ្យា</a>
+                <a class="text-dark" href="">របាយការណ៍</a>
+                <a class="text-dark" href="">អត្ថបទ PR</a>
+                <a class="text-dark" href="">ពិព័រណ៍មុខរបរ 2022</a>
+                <a class="text-dark" href="">ព័ត៌មានថ្មីៗ</a>
+                <a class="text-dark" href="">ចាប់ផ្តើមអាជីវកម្ម</a>
+                <a class="text-dark" href="">អចលនទ្រព្យ</a>
+                <a class="text-dark" href="">ភាពជាអ្នកដឹកនាំ</a>
+                <a class="text-dark" href="">ហិរញ្ញវត្ថុ</a>
             </div>
         </div>
         <div class="right">
             <div class="title-bar">
                 <p>អត្ថបទប្រចាំថ្ងៃថ្មីៗ</p>
                 <h3>ដើម្បីបង្កើនចំណេះដឹងក្នុងការធ្វើអាជីវកម្ម</h3>
-                <img width="1522.8px" height="512px" src="./Image/business.jpg" alt="">
-                <div class="title-slide">
-                    <div class="title-slide-lil">
-                        <p>November 1 2022</p>
-                        <h1>ជាអ្នករកស៊ីត្រូវពូកែ! មកស្គាល់ជំនាញ ៣ ដែលអ្នករកស៊ីត្រូវចេះ បើចង់ពូកែរកស៊ី</h1>
-                        <a href="">បន្តការអាន</a>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner w-100 h-100">
+                        <div class="carousel-item w-100 h-100 active">
+                        <img width="1522.8px" height="512px"  src="./Image/business.jpg" class="d-block w-100 " alt="...">
+                            <div class="title-slide">
+                                <div class="title-slide-lil">
+                                    <p>November 1 2022</p>
+                                    <h1>ជាអ្នករកស៊ីត្រូវពូកែ! មកស្គាល់ជំនាញ ៣ ដែលអ្នករកស៊ីត្រូវចេះ បើចង់ពូកែរកស៊ី</h1>
+                                    <a class="text-light" href="">បន្តការអាន</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item w-100 h-100 ">
+                            <img width="1522.8px" height="512px"  src="./Image/business.jpg" class="d-block w-100 " alt="...">
+                            <div class="title-slide">
+                                <div class="title-slide-lil">
+                                    <p>November 1 2022</p>
+                                    <h1>ជាអ្នករកស៊ីត្រូវពូកែ! មកស្គាល់ជំនាញ ៣ ដែលអ្នករកស៊ីត្រូវចេះ បើចង់ពូកែរកស៊ី</h1>
+                                    <a href="">បន្តការអាន</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item w-100 h-100 ">
+                            <img width="1522.8px" height="512px"  src="./Image/business.jpg" class="d-block w-100 " alt="...">
+                            <div class="title-slide">
+                                <div class="title-slide-lil">
+                                    <p>November 1 2022</p>
+                                    <h1>ជាអ្នករកស៊ីត្រូវពូកែ! មកស្គាល់ជំនាញ ៣ ដែលអ្នករកស៊ីត្រូវចេះ បើចង់ពូកែរកស៊ី</h1>
+                                    <a href="">បន្តការអាន</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="ads">
-                <h1>ពាណិជ្ជកម្ម</h1>
+                <h1 class="lead fw-bold mb-0">ពាណិជ្ជកម្ម</h1>
                 <img src="./Image/b0b5abc5-9803-40ae-b5b5-106d45b4ea17.jpg" width="357.33px" height="357.33px" alt="">
             </div>
             <div class="main-news">
-                <h1>អត្ថបទពេញនិយមប្រចាំខែ<span>មើល​បន្ថែម</span></h1>
+                <h1 class="lead fw-bold mb-0">អត្ថបទពេញនិយមប្រចាំខែ<span>មើល​បន្ថែម</span></h1>
                 <a id="one" href="">
                     <div class="news-img">
                         <img width="100%" height="100%" src="./Image/cc141ca8-0738-48d1-9aee-aa4f7a5307a6.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -74,8 +107,8 @@
                         <img width="100%" height="100%" src="./Image/735ab583-7de9-46bd-8273-e333e52c8959.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -86,8 +119,8 @@
                         <img width="100%" height="100%" src="./Image/7f624b7f-1390-4808-a3c5-8d3e4f8827ad.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -98,21 +131,21 @@
                         <img width="100%" height="100%" src="./Image/054c3edd-2043-428a-a24b-88b7c3017f95.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
                     </div>
                 </a>
-                <h1>អត្ថបទថ្មីៗ<span>មើល​បន្ថែម</span></h1>
+                <h1 class="lead fw-bold mt-0 mb-0">អត្ថបទថ្មីៗ<span>មើល​បន្ថែម</span></h1>
                 <a id="one" href="">
                     <div class="news-img">
                         <img width="100%" height="100%" src="./Image/cc141ca8-0738-48d1-9aee-aa4f7a5307a6.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -123,8 +156,8 @@
                         <img width="100%" height="100%" src="./Image/735ab583-7de9-46bd-8273-e333e52c8959.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -135,8 +168,8 @@
                         <img width="100%" height="100%" src="./Image/7f624b7f-1390-4808-a3c5-8d3e4f8827ad.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -147,21 +180,21 @@
                         <img width="100%" height="100%" src="./Image/054c3edd-2043-428a-a24b-88b7c3017f95.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
                     </div>
                 </a>
-                <h1>កំពូលអ្នកលក់<span>មើល​បន្ថែម</span></h1>
+                <h1 class="lead fw-bold mt-0 mb-0">កំពូលអ្នកលក់<span>មើល​បន្ថែម</span></h1>
                 <a id="one" href="">
                     <div class="news-img">
                         <img width="100%" height="100%" src="./Image/cc141ca8-0738-48d1-9aee-aa4f7a5307a6.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -172,8 +205,8 @@
                         <img width="100%" height="100%" src="./Image/735ab583-7de9-46bd-8273-e333e52c8959.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -184,8 +217,8 @@
                         <img width="100%" height="100%" src="./Image/7f624b7f-1390-4808-a3c5-8d3e4f8827ad.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -196,21 +229,21 @@
                         <img width="100%" height="100%" src="./Image/054c3edd-2043-428a-a24b-88b7c3017f95.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
                     </div>
                 </a>
-                <h1>មុខរបរកសិកម្ម<span>មើល​បន្ថែម</span></h1>
+                <h1 class="lead fw-bold mt-0 mb-0">មុខរបរកសិកម្ម<span>មើល​បន្ថែម</span></h1>
                 <a id="one" href="">
                     <div class="news-img">
                         <img width="100%" height="100%" src="./Image/cc141ca8-0738-48d1-9aee-aa4f7a5307a6.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -221,8 +254,8 @@
                         <img width="100%" height="100%" src="./Image/735ab583-7de9-46bd-8273-e333e52c8959.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -233,8 +266,8 @@
                         <img width="100%" height="100%" src="./Image/7f624b7f-1390-4808-a3c5-8d3e4f8827ad.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -245,35 +278,35 @@
                         <img width="100%" height="100%" src="./Image/054c3edd-2043-428a-a24b-88b7c3017f95.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
                     </div>
                 </a>
-                <h1>មុខរបរបច្ចេកវិទ្យា<span>មើល​បន្ថែម</span></h1>
+                <h1 class="lead fw-bold mt-0 mb-0">មុខរបរបច្ចេកវិទ្យា<span>មើល​បន្ថែម</span></h1>
                 <a id="one" href="">
                     <div class="news-img">
                         <img width="100%" height="100%" src="./Image/02caf14d-2953-4db5-a571-fc8cd02c9d0c.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ពូកែឆ្កឹះលុយមែន! Elon Musk ត្រៀមកើបលុយពីអ្នកប្រើ Twitter ១ក្រុមនេះ តម្លៃ៨ដុល្លារ ក្នុង១ខែ...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ពូកែឆ្កឹះលុយមែន! Elon Musk ត្រៀមកើបលុយពីអ្នកប្រើ Twitter ១ក្រុមនេះ តម្លៃ៨ដុល្លារ ក្នុង១ខែ...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
                     </div>
                 </a>
                 <div class="last-news">
-                <h1>របាយការណ៍<span>មើល​បន្ថែម</span></h1>
+                <h1 class="lead fw-bold mb-0">របាយការណ៍<span>មើល​បន្ថែម</span></h1>
                 <a id="one" href="">
                     <div class="news-img">
                         <img width="100%" height="100%" src="./Image/cc141ca8-0738-48d1-9aee-aa4f7a5307a6.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -284,8 +317,8 @@
                         <img width="100%" height="100%" src="./Image/735ab583-7de9-46bd-8273-e333e52c8959.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -296,8 +329,8 @@
                         <img width="100%" height="100%" src="./Image/7f624b7f-1390-4808-a3c5-8d3e4f8827ad.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -308,21 +341,21 @@
                         <img width="100%" height="100%" src="./Image/054c3edd-2043-428a-a24b-88b7c3017f95.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
                     </div>
                 </a>
-                <h1>ពិព័រណ៍មុខរបរ 2022<span>មើល​បន្ថែម</span></h1>
+                <h1 class="lead fw-bold mt-0 mb-0">ពិព័រណ៍មុខរបរ 2022<span>មើល​បន្ថែម</span></h1>
                 <a id="one" href="">
                     <div class="news-img">
                         <img width="100%" height="100%" src="./Image/cc141ca8-0738-48d1-9aee-aa4f7a5307a6.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ខ្លាំងមែន! យុវជនវៀតណាមបង្កើតឡានហោះដំបូងបង្អស់នៅអាស៊ីអាគ្នេយ៍ តម្លៃខ្ពស់កប់មិន...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -333,8 +366,8 @@
                         <img width="100%" height="100%" src="./Image/735ab583-7de9-46bd-8273-e333e52c8959.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ធនាគារស្ថាបនាចាប់ផ្តើមកម្មវិធីផ្តល់ប្រាក់ត្រលប់មកវិញរហូតដល់ ៣០.០០០ រៀល...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -345,8 +378,8 @@
                         <img width="100%" height="100%" src="./Image/7f624b7f-1390-4808-a3c5-8d3e4f8827ad.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">ព្រីនស៍រៀលអ៊ីស្ទេត គ្រុប និង CBRE Cambodiaចាប់ដៃគ្នាលើកកម្ពស់ប្រតិបត្តិការ...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
@@ -357,8 +390,8 @@
                         <img width="100%" height="100%" src="./Image/054c3edd-2043-428a-a24b-88b7c3017f95.jpg" alt="">
                     </div>
                     <div class="news-title">
-                        <h1>November 3 2022</h1>
-                        <p>រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
+                        <h1 class="mb-0">November 3 2022</h1>
+                        <p class="mb-0">រថយន្ដជប៉ុន ២ ម៉ាកនេះនឹងត្រូវដំឡើងនៅខ្មែរ ខណៈទើបតែទទួលបានការអនុម័តពីCDC...</p>
                         <div class="username">
                             <p>Unknow<span><i class="fa-solid fa-eye"></i> 1.7K</span></p>
                         </div>
