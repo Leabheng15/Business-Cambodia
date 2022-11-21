@@ -621,7 +621,7 @@ span:hover{
 }
 
 /* responsive ipad */
-@media (min-width: 576px) and (max-width: 375.98px){
+@media (min-width: 576px) and (max-width: 768.98px){
     .left{
         display: none;
     }
@@ -632,7 +632,7 @@ span:hover{
         float: left;
     }
     .right {
-        width: 375px;
+        width: 768px;
         height: 3800px;
         float: left;
         padding: 10px 18px 40px;
@@ -704,10 +704,10 @@ span:hover{
         margin-top: 300px;
     }
     .footer {
-        width: 375px;
+        width: 768px;
     }
     .res-bar{
-        width: 375px;
+        width: 768px;
         height: 20px;
         margin-bottom: 20px;
     }
@@ -725,13 +725,13 @@ span:hover{
         color: #000;
     }
     .title-bar {
-        width: 375px;
+        width: 768px;
     }
     .res-bar{
         display: block;
     }
     .footer {
-        width: 375px;
+        width: 768px;
         height: 1050px;
     }
     .title-box-one {
