@@ -600,7 +600,7 @@ span:hover{
         font-size: 13px;
     }
     .usefull {
-        height: 315%;
+        height: 63%;
     }
     .usefull p {
         font-size: 13px;
@@ -618,6 +618,9 @@ span:hover{
         padding: 10px;
         font-size: 22px;
         margin-top: 10px;
+    }
+    .end {
+        margin-top: -60px;
     }
 }
 
@@ -693,10 +696,11 @@ span:hover{
         margin-top: 340px;
     }
     .last-news {
+        width: 100%;
         margin-top: -25px;
     }
     .main-news a{
-        width: 732px;
+        width: 100%;
     }
     .main-news a#two,a#three,a#four{
         display: none;
@@ -770,6 +774,7 @@ span:hover{
     }
     .usefull {
         height: 330%;
+        margin-top: -52px;
     }
     .usefull p {
         font-size: 15px;
@@ -820,14 +825,83 @@ span:hover{
         width: 405px;
         color: #fff;
     }
+    .end {
+        height: 23px;
+    }
 }
 
-
-
-
-
-
-
+/* ipad pro */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .right {
+        width: 706px;
+        height: 3800px;
+        float: left;
+        padding: 16px 32px 40px;
+        box-sizing: border-box;
+        /* margin-left: 2px; */
+    }
+    .title-slide {
+        width: 100%;
+    }
+    .title-slide-lil {
+        width: 100%;
+    }
+    #carouselExampleIndicators {
+        width: 645px;
+    }
+    .title-bar {
+        width: 676px;
+    }
+    .title-bar p {
+        font-size: 24px;
+    }
+    .title-bar h3 {
+        font-size: 32px;
+    }
+    .title-slide-lil h1 {
+        font-size: 36px;
+    }
+    .main-news a#three,a#four{
+        display: none;
+    }
+    .main-news a {
+        width: 313px;
+    }
+}
+/* @media (min-width: 1200px) { 
+    .nav-bar{
+        width: 882.4;
+        height: 50px;
+        background-color: #ED1C24;
+        float: left;
+    }
+    .right {
+        width: 706px;
+        height: 3800px;
+        float: left;
+        padding: 10px 18px 40px;
+        box-sizing: border-box;
+    }
+    .title-bar {
+        width: 100%;
+    }
+    .title-slide {
+        width: 100%;
+    }
+    .title-slide-lil h1 {
+        font-size: 29px;
+        margin-right: 450px;
+    }
+    .main-news a#three,a#four{
+        display: none;
+    }
+    .main-news a {
+        width: 49%;
+    }
+    .main-news a:not(#one) {
+        margin-left: 13px;
+    }
+}  */
 
 
 
